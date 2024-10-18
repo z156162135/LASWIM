@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    vertical-align: baseline;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main {
+    margin-top: 7.8125rem;
+    width: 100%;
+}
+
+@media screen and (orientation: portrait) {
+    .main {
+        margin-top: 5rem;
+    }
+    .main>.banner{
+        min-height: 200px !important;
+    }
+}

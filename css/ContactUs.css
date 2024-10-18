@@ -1,0 +1,120 @@
+.main>.banner {
+    width: 100%;
+    height: 16.5rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>.banner>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.main>.banner>.nav {
+    position: absolute;
+    left: 9.375rem;
+    top: 1.9375rem;
+    font-family: RobotoLight;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.main>.banner>.nav>a {
+    font-family: RobotoLight;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.main>.banner>.title {
+    font-family: LeagueGothicRegular;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.main>.body {
+    width: 100%;
+    padding: 8.875rem 14.5625rem;
+    box-sizing: border-box;
+}
+
+.main>.body>.title {
+    font-family: LeagueGothicRegular;
+    font-size: 3.75rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.main>.body p {
+    font-family: RobotoLight;
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: .5rem;
+}
+
+.main>.body>p:nth-child(3) {
+    margin-bottom: 4rem;
+}
+
+.main>.body>ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main>.body>ul>li {
+    width: 33.3%;
+    margin-bottom: 3rem;
+}
+
+.main>.body>ul>li:nth-child(3)>p {
+    font-size: 1.125rem;
+}
+
+.main>.body>ul>li>p:nth-child(1) {
+    display: flex;
+    align-items: center;
+
+}
+
+.main>.body>ul>li>p:nth-child(1)>span {
+    font-size: 1.5rem;
+    font-family: RobotoRegular;
+    color: #333;
+}
+
+.main>.body>ul>li>p:nth-child(1)>img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+.main>.body>ul>li>p:nth-child(1)>span {
+    font-size: 1.25rem;
+    font-size: RobotoLight;
+    color: #333;
+}
+
+.main>.body>ul>li>p:nth-child(2),
+.main>.body>ul>li>p:nth-child(3) {
+    margin-left: 3.5rem;
+}
+
+@media screen and (orientation: portrait) {
+    .main>.body {
+        width: 100%;
+        padding: 5.875rem 3.5625rem;
+        box-sizing: border-box;
+    }
+    .main>.banner>.nav {
+        left: 3.375rem;
+        min-height: 12.5rem;
+    }
+    .main>.body>ul>li {
+        width: 50%;
+    }
+}

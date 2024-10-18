@@ -1,0 +1,44 @@
+@font-face {
+    font-family: LeagueGothic;
+    src: url(../typefack/League_Gothic.ttf);
+}
+@font-face {
+    font-family: LeagueGothicRegular;
+    src: url(../typefack/LeagueGothic-Regular-2.otf);
+}
+@font-face {
+    font-family: RobotoBold;
+    src: url(../typefack/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoBoldItalic;
+    src: url(../typefack/Roboto-BoldItalic.ttf);
+}
+@font-face {
+    font-family: RobotoItalic;
+    src: url(../typefack/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: RobotoLight;
+    src: url(../typefack/Roboto-Light.TTF);
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../typefack/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoThin;
+    src: url(../typefack/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: RobotoCondensedItalic;
+    src: url(../typefack/RobotoCondensed-Italic.ttf);
+}
+@font-face {
+    font-family: RobotoSlabBold;
+    src: url(../typefack/RobotoSlab-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoSlabRegular;
+    src: url(../typefack/RobotoSlab-Regular.ttf);
+}

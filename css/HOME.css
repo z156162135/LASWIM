@@ -1,0 +1,496 @@
+.main>.banner {
+    width: 100%;
+    height: 37.4375rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main>.banner>.ul1 {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 2rem;
+    z-index: 99;
+}
+
+.main>.banner>.ul1>li {
+    width: .8rem;
+    height: .8rem;
+    background-color: #fff;
+    margin: 0 1rem;
+    border-radius: 100%;
+}
+
+.main>.banner>.ul1>li:nth-child(1) {
+    background-color: #0086aa;
+}
+
+.main>.banner>.ul2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: all 1s;
+}
+
+.main>.banner>.ul2>li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    flex-shrink: 0;
+}
+
+.main>.banner>.ul2>li>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+.main>.goods {
+    width: 100%;
+    height: 41rem;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4.25rem;
+    box-sizing: border-box;
+}
+
+.main>.goods>p {
+    font-size: 4.5rem;
+    color: #404a59;
+    font-family: LeagueGothicRegular;
+    margin-bottom: 3.3125rem;
+}
+
+.main>.goods>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4.875rem;
+    box-sizing: border-box;
+}
+
+.main>.goods>div>img {
+    width: 2.5625rem;
+    height: 2.5625rem;
+    cursor: pointer;
+}
+
+.main>.goods>div>.right {
+    transform: rotate(180deg);
+}
+
+.main>.goods>div>ul {
+    width: 90%;
+    overflow: hidden;
+
+}
+
+.main>.goods>div>ul>div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: all .5s;
+}
+
+.main>.goods>div>ul>div>li {
+    flex-shrink: 0;
+    margin: 0 1rem;
+}
+
+.main>.goods>div>ul>div>li:hover>a>span {
+    background-color: #0086aa;
+    color: #fff;
+}
+
+.main>.goods>div>ul>div>li>a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main>.goods>div>ul>div>li>a>div {
+    width: 23rem;
+    height: 23rem;
+    background-color: rgba(255, 255, 255, .8);
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+.main>.goods>div>ul>div>li>a>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main>.goods>div>ul>div>li>a>span {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.375rem;
+    color: #333;
+    font-family: RobotoRegular;
+}
+
+.main>.div3 {
+    width: 100%;
+    height: 33rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main>.div3>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.main>.div3>div {
+    width: 66.75rem;
+    height: 20.9375rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4.1875rem;
+    box-sizing: border-box;
+    z-index: 9;
+}
+
+.main>.div3>div>.p1 {
+    font-size: 4.375rem;
+    color: #0086aa;
+    font-family: LeagueGothicRegular;
+}
+
+.main>.div3>div>.p2 {
+    font-size: 1.25rem;
+    color: #333;
+    font-family: RobotoLight;
+    margin-top: 2.3125rem;
+    margin-bottom: 3.9375rem;
+}
+
+.main>.div3>div>a>button {
+    width: 12.5625rem;
+    height: 2.6875rem;
+    background: none;
+    border: .125rem solid #0086aa;
+    border-radius: 1.5rem;
+    color: #0086aa;
+    font-size: 1.375rem;
+    font-family: RobotoRegular;
+}
+
+.main>.div3>div>a>button:hover {
+    background-color: #0086aa;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main>.div4 {
+    width: 100%;
+    height: 34.4375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main>.div4>.p1 {
+    font-size: 4.5rem;
+    font-family: LeagueGothicRegular;
+    color: #404a59;
+    margin-top: 15.0625rem;
+    margin-bottom: 4.875rem;
+}
+
+.main>.div4>.p2,
+.main>.div4>.p3 {
+    font-size: 1.25rem;
+    font-family: RobotoLight;
+    color: #333;
+}
+
+.main>.div5 {
+    width: 100%;
+    height: 53.125rem;
+    padding-top: 4.0625rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 4.0625rem 7.25rem 0 7.25rem;
+}
+
+.main>.div5>div {
+    width: 49.125rem;
+    position: relative;
+}
+
+.main>.div5>div>img {
+    width: 100%;
+    height: 33.1875rem;
+}
+
+.main>.div5>div>div {
+    position: absolute;
+    top: 27.5rem;
+    padding: 0 7.0625rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.main>.div5>div>div>.title {
+    font-size: 3.625rem;
+    color: #333;
+    font-family: LeagueGothicRegular;
+    margin-bottom: 2.1875rem;
+}
+
+.main>.div5>div>div>.i {
+    font-size: 1.25rem;
+    color: #333;
+    font-family: RobotoRegular;
+}
+
+.main>.div5>div>div>a>button {
+    margin-top: 3.375rem;
+    width: 10.125rem;
+    height: 2.6875rem;
+    background: none;
+    border: .125rem solid #0086aa;
+    border-radius: 1.5rem;
+    color: #0086aa;
+    font-size: 1.375rem;
+    font-family: RobotoRegular;
+}
+
+.main>.div5>div>div>a>button:hover {
+    background-color: #0086aa;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main>.div5 {
+    display: flex;
+}
+
+.main>.div6>div {
+    width: 100%;
+    height: 48.1875rem;
+    position: relative;
+    margin-bottom: 1.8125rem;
+}
+
+.main>.div6>div>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.main>.div6>.div1>div,
+.main>.div6>.div3>div {
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border-top: .1875rem solid #0086aa;
+    margin: 14.1875rem 9.3125rem;
+    padding-top: 3.5625rem;
+    box-sizing: border-box;
+}
+
+.main>.div6>.div2>div,
+.main>.div6>.div4>div {
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-top: .1875rem solid #0086aa;
+    margin: 14.1875rem 9.3125rem;
+    padding-top: 3.5625rem;
+    box-sizing: border-box;
+}
+
+.main>.div6>div>div>.title {
+    font-size: 4.0625rem;
+    font-family: LeagueGothicRegular;
+    color: #333;
+    margin-bottom: 2.25rem;
+}
+
+.main>.div6>div>div>p {
+    font-size: 1.25rem;
+    font-family: RobotoRegular;
+    color: #333;
+}
+
+.main>.div6>div>div>a>button {
+    margin-top: 3.1875rem;
+    margin-top: 3.375rem;
+    width: 10.125rem;
+    height: 2.6875rem;
+    background: none;
+    border: .125rem solid #0086aa;
+    border-radius: 1.5rem;
+    color: #0086aa;
+    font-size: 1.375rem;
+    font-family: RobotoRegular;
+}
+
+.main>.div6>div>div>a>button:hover {
+    background-color: #0086aa;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main>.div7 {
+    width: 100%;
+    height: 47.6875rem;
+    padding-top: 7.75rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main>.div7>.title {
+    color: #404a59;
+    font-size: 4.5rem;
+    font-family: LeagueGothicRegular;
+    margin-bottom: 6.4375rem;
+}
+
+.main>.div7>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main>.div7>ul>li {
+    width: 22.625rem;
+    margin: 0 1.7813rem;
+}
+
+.main>.div7>ul>li>img {
+    width: 100%;
+}
+
+.main>.div7>ul>li>div>p {
+    font-size: 1.875rem;
+    color: #333;
+    font-family: LeagueGothicRegular;
+    margin-top: 1.75rem;
+    margin-bottom: 3.375rem;
+}
+
+.main>.div7>ul>li>div>a {
+    display: flex;
+    align-items: center;
+}
+
+.main>.div7>ul>li>diva>img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+.main>.div7>ul>li>div>a>span {
+    border-bottom: .0625rem solid black;
+    padding: .3125rem 0;
+    color: #333;
+    font-family: RobotoRegular;
+}
+
+@media screen and (orientation: portrait) {
+    .main>.banner {
+        height: auto;
+    }
+
+    .main>.goods>div>ul {
+        margin-right: 1rem;
+    }
+
+    .main>.div5 {
+        display: none;
+    }
+
+    .main>.div6>div {
+        height: 28rem;
+        overflow: hidden;
+    }
+
+    .main>.div6>div>div {
+        margin: 5rem 3rem !important;
+        padding: 0 !important;
+        position: relative;
+    }
+
+    .main>.div6>div>img:nth-child(2) {
+        width: 180%;
+    }
+
+    .main>.div6>.div1>img:nth-child(2),
+    .main>.div6>.div3>img:nth-child(2) {
+        position: absolute;
+        right: 0;
+    }
+
+    .main>.div7 {
+        width: 100%;
+        height: auto;
+        align-items: start;
+    }
+
+    .main>.div7>.title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main>.div7>ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main>.div7>ul>li {
+        width: 80%;
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+        position: relative;
+    }
+
+    .main>.div7>ul>li>img {
+        width: 50%;
+        height: 100%;
+        margin-right: 2rem;
+    }
+
+    .main>.div7>ul>li>div>a {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .main>.div7>ul>li>div>a>img {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 1rem;
+    }
+}

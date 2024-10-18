@@ -1,0 +1,175 @@
+.main>.banner{
+    width: 100%;
+    height: 16.5rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main>.banner>img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.main>.banner>.nav{
+    position: absolute;
+    left: 9.375rem;
+    top: 1.9375rem;
+    font-family: RobotoLight;
+    color: #fff;
+    font-size: 1rem;
+}
+.main>.banner>.nav>a{
+    font-family: RobotoLight;
+    color: #fff;
+    font-size: 1rem;
+}
+.main>.banner>.title{
+    font-family: LeagueGothicRegular;
+    font-size: 5rem;
+    color: #fff;
+}
+.main>.goods{
+    width: 100%;
+    height: 141rem;
+    padding: 5.625rem 7.375rem 4.1875rem 9.375rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.main>.goods>.list{
+    width: 19.625rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.main>.goods>.list>li{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.main>.goods>.list>li>div{
+    width: 100%;
+    border-bottom: .1875rem solid #eaeaeb;
+    box-sizing: border-box;
+    padding: .7rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    font-family: RobotoBold;
+    font-size: 1.125rem;
+}
+.main>.goods>.list>li>div>span:nth-child(2){
+    font-family: RobotoLight;
+    font-size: 2rem;
+}
+.main>.goods>.list>li>ul{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-size: 1.125rem;
+    color: #333;
+    font-family: RobotoRegular;
+}
+.main>.goods>.list>li>ul>li{
+    width: 100%;
+    box-sizing: border-box;
+}
+.main>.goods>.list>li>ul>li>span{
+    width: 100%;
+    display: flex;
+    border-bottom: .1875rem solid #eaeaeb;
+    padding: .7rem 0 .7rem 1.6875rem;
+    box-sizing: border-box;
+}
+.main>.goods>.list>li>ul>li>ul{
+    display: none;
+    flex-direction: column;
+}
+.main>.goods>.list>li>ul>li>ul>li{
+    margin-left: 3rem;
+    padding: .7rem 0;
+    box-sizing: border-box;
+    border-bottom: .1875rem solid #eaeaeb;
+}
+.main>.goods>div{
+    width: 74.6875rem;
+}
+.main>.goods>div>.item{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main>.goods>div>.item>li{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 1rem;
+    box-sizing: border-box;
+}
+.main>.goods>div>.item>li>img{
+    width: 100%;
+    height: 100%;
+}
+.main>.goods>div>.item>li>span{
+    position: absolute;
+    bottom: 3rem;
+    font-size: 1.25rem;
+    color: #333;
+    font-family: RobotoRegular;
+}
+.main>.goods>div>.paging{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.main>.goods>div>.paging>img{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.main>.goods>div>.paging>.right{
+    transform: rotate(180deg);
+}
+.main>.goods>div>.paging>li{
+    margin: 0 1.375rem;
+    font-size: 1.25rem;
+    padding: 0 .3125rem;
+}
+.main>.goods>div>.paging>li:hover{
+    border-bottom: 3px solid #333;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+@media screen and (orientation: portrait) {
+    .main>.banner>.nav{
+        left: 3.375rem;
+    }
+    .main>.goods{
+        height: auto;
+        padding: 5.625rem 3.375rem 4.1875rem 3.375rem;
+
+    }
+    .main>.goods>.list{
+        display: none;
+    }
+    .main>.goods>div>.item>li{
+        width: 40%;
+    }
+}

@@ -1,0 +1,139 @@
+.main>.banner {
+    width: 100%;
+    height: 37.5rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>.banner>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transition: all .5s;
+}
+
+.main>.banner>ul {
+    width: 100%;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+    height: 8.3125rem;
+    background-color: rgba(0, 0, 0, .5);
+    overflow: hidden;
+    position: absolute;
+    bottom: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+
+.main>.banner>ul>li {
+    width: 12.5rem;
+    height: 6.25rem;
+    margin: 0 1rem;
+    text-align: center;
+    border: .185rem solid #fff;
+    cursor: pointer;
+}
+
+.main>.banner>ul>li:nth-child(1) {
+    border-color: red;
+}
+
+.main>.banner>ul>li:nth-child(1)>p {
+    color: red;
+}
+
+.main>.banner>ul>li>img {
+    width: 100%;
+    height: 100%;
+}
+
+.main>.banner>ul>li>p {
+    color: #fff;
+    font-size: .75rem;
+    line-height: 1.125rem;
+}
+
+.main>.banner>div {
+    width: 100%;
+    height: 5.9375rem;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main>.banner>div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>.banner>div>div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+}
+
+.main>.banner>div>div:nth-child(2)>div {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main>.banner>div img {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.main>.banner>div span {
+    line-height: 1.875rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.main>.body {
+    width: 100%;
+    padding: 7.125rem 18.5625rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main>.body>.title {
+    font-size: 3rem;
+    color: #333;
+    font-family: LeagueGothicRegular;
+    margin-bottom: 5.3125rem;
+}
+
+.main>.body>p {
+    font-size: 1.25rem;
+    font-family: RobotoLight;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+@media screen and (orientation: portrait) {
+    .main>.banner {
+        height: 25rem;
+    }
+    .main>.banner>ul>li{
+        height: 4rem;
+    }
+    .main>.body {
+        padding: 7.125rem 6.5625rem;
+    }
+}

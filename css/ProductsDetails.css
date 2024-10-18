@@ -1,0 +1,390 @@
+.main>.banner {
+    width: 100%;
+    height: 16.3125rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>.banner>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.main>.banner>.title {
+    font-family: LeagueGothicRegular;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.main>.body {
+    width: 100%;
+    padding: 0 9.375rem;
+    box-sizing: border-box;
+}
+
+.main>.body>.icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 1.8125rem;
+    margin-bottom: 5.3125rem;
+    box-sizing: border-box;
+}
+
+.main>.body>.icon>span {
+    font-family: RobotoRegular;
+    color: #666;
+    font-size: 1.125rem;
+    margin-right: .5rem;
+}
+
+.main>.body>.icon>li {
+    width: 1rem;
+    height: 1rem;
+    border: .0625rem solid rgba(102, 102, 102, 0.3);
+    border-radius: 100%;
+    padding: .3rem;
+    margin: 0 .5rem;
+    cursor: pointer;
+}
+
+.main>.body>.icon>li>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main>.body>.details {
+    width: 100%;
+    height: 50.1875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main>.body>.details>.div1 {
+    width: 44.3125rem;
+    height: 43.0625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main>.body>.details>.div1>div {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.main>.body>.details>.div1>div>img:not(:nth-child(2)) {
+    width: 5%;
+    height: 5%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.main>.body>.details>.div1>div>img:nth-child(2) {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main>.body>.details>.div1>ul {
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+
+.main>.body>.details>.div1>ul>li {
+    width: 20%;
+    height: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.main>.body>.details>.div1>ul>li>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.main>.body>.details>.div2 {
+    width: 48.8125rem;
+    height: 43.0625rem;
+}
+
+.main>.body>.details>.div2>.title1 {
+    font-size: 4.375rem;
+    color: #0086aa;
+    font-family: LeagueGothicRegular;
+    margin-bottom: 1.5rem;
+}
+
+.main>.body>.details>.div2>.title2 {
+    font-size: 1.5rem;
+    color: #0086aa;
+    font-family: RobotoRegular;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.main>.body>.details>.div2>.p6 {
+    font-size: 1.25rem;
+    color: #0086aa;
+    font-family: RobotoLight;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+.main>.body>.details>.div2>.p6>img {
+    width: .6rem;
+    height: .5rem;
+    margin-right: .5rem;
+}
+
+.main>.body>.details>.div2>div>p {
+    font-size: 1.25rem;
+    color: #333;
+    font-family: RobotoLight;
+    margin-bottom: 1rem;
+}
+
+.main>.body>.details>.div2>button {
+    width: 24.8125rem;
+    height: 3.0625rem;
+    background: none;
+    border: .125rem solid #0086aa;
+    border-radius: 6rem;
+    font-size: 1.375rem;
+    font-family: RobotoRegular;
+    color: #0086aa;
+}
+
+.main>.body>.details>.div2>button:hover {
+    background: #0086aa;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main>.body>.detail {
+    margin-bottom: 5rem;
+}
+
+.main>.body>.detail>p {
+    margin-bottom: 3.3125rem;
+    font-size: 3.125rem;
+    font-family: LeagueGothicRegular;
+}
+
+.main>.body>.detail>ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main>.body>.detail>ul>li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>.body>.detail>ul>li>div {
+    width: 23.5625rem;
+    height: 20.0625rem;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.main>.body>.detail>ul>li:hover>div {
+    background-color: #eee;
+}
+
+.main>.body>.detail>ul>li>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main>.body>.detail>ul>li>span {
+    font-size: 1.25rem;
+    font-family: RobotoRegular;
+    color: #333;
+    padding: 1rem 0;
+}
+
+.main>.body>.video>p {
+    margin-bottom: 3.3125rem;
+    font-size: 3.125rem;
+    font-family: LeagueGothicRegular;
+}
+
+.main>.body>.video>video {
+    width: 84.0625rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 9.3125rem;
+}
+
+.main>.body>.resource>p {
+    margin-bottom: 3.3125rem;
+    font-size: 3.125rem;
+    font-family: LeagueGothicRegular;
+}
+.main>.body>.resource>ul {
+    width: 100%;
+    border-top: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main>.body>.resource>ul>li {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.main>.body>.resource>ul>li:nth-child(2){
+    background-color: #ececec;
+}
+.main>.body>.resource>ul>li>img{
+    width: 1.1875rem;
+    height: 1.1875rem;
+    margin-right: 1rem;
+}
+.main>.body>.resource>ul>li>span{
+    font-size: 1.25rem;
+    color: #3c3c3c;
+    font-family: RobotoBold;
+}
+.main>.body>.resource>div{
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+.main>.body>.resource>div>p{
+    font-size: 1.25rem;
+    font-family: RobotoRegular;
+    color: #333;
+    margin: 1rem 0;
+}
+.main>.body>.resource>div>table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border: .125rem solid #e6e6e6;
+}
+.main>.body>.resource>div>table>thead{
+    background-color: #0086aa;
+    width: 100%;
+    height: 3rem;
+}
+.main>.body>.resource>div>table>thead>tr>th{
+    line-height: 3rem;
+    height: 100%;
+    font-size: 1.125rem;
+    color: #fff;
+    font-family: RobotoRegular;
+    box-sizing: border-box;
+    border-right: .125rem solid #2497b6;
+    border-left: .125rem solid #2497b6;
+}
+.main>.body>.resource>div>table>tbody>tr{
+    width: 100%;
+    height: 2.5rem;
+    border-bottom: .125rem solid #e6e6e6;
+}
+.main>.body>.resource>div>table>tbody>tr>td{
+    line-height: 2.5rem;
+}
+.main>.body>.resource>.zk{
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: .125rem solid #e6e6e6;
+    margin-bottom: 7.75rem;
+}
+.main>.body>.resource>.zk>img{
+    width: .625rem;
+    height: .375rem;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+.main>.body>.resource>.zk>span{
+    color: #0086aa;
+    font-size: 1.25rem;
+    font-family: RobotoLight;
+    cursor: pointer;
+}
+.main>.body>.workshop>p{
+    margin-bottom: 3.3125rem;
+    font-size: 3.125rem;
+    font-family: LeagueGothicRegular;
+}
+.main>.body>.workshop>ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7rem;
+}
+.main>.body>.workshop>ul>li{
+    width: 32.375rem;
+    height: 19.875rem;
+    margin: 0 1rem;
+    box-sizing: border-box;
+
+}
+.main>.body>.workshop>ul>li>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+@media screen and (orientation: portrait) {
+    .main>.body {
+        width: 100%;
+        padding: 0 3.375rem;
+        box-sizing: border-box;
+    }
+    .main>.body>.details{
+        margin-bottom: 13rem;
+    }
+    .main>.body>.details>.div1 {
+        width: 40%;
+    }
+    .main>.body>.details>.div2{
+        width: 50%;
+    }
+    .main>.body>.detail>ul{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .main>.body>.detail>ul>li{
+        width: 50%;
+    }
+    .main>.body>.detail>ul>li>div{
+        width: 100%;
+    }
+    .main>.body>.video>video{
+        width: 100%;
+    }
+}

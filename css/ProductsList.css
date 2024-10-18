@@ -1,0 +1,125 @@
+.main>.banner {
+    width: 100%;
+    height: 16.5rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>.banner>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.main>.banner>.nav {
+    position: absolute;
+    left: 9.375rem;
+    top: 1.9375rem;
+    font-family: RobotoLight;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.main>.banner>.nav>a {
+    font-family: RobotoLight;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.main>.banner>.title {
+    font-family: LeagueGothicRegular;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.main>.goods {
+    width: 100%;
+    padding: 4.875rem 9.375rem 8.4375rem 9.375rem;
+    box-sizing: border-box;
+}
+
+.main>.goods>.title {
+    font-family: LeagueGothicRegular;
+    font-size: 3.4375rem;
+    color: #333;
+    margin-bottom: 1.9375rem;
+}
+
+.main>.goods>.paratext {
+    font-size: 1.25rem;
+    font-family: RobotoLight;
+    color: #333;
+    margin-bottom: 5.125rem;
+}
+
+.main>.goods>ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main>.goods>ul>li {
+    width: 25%;
+    height: 26.045rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: .0625rem solid #ededed;
+    box-sizing: border-box;
+}
+
+.main>.goods>ul>li>a {
+    width: 100%;
+    height: 100%;
+}
+
+.main>.goods>ul>li>a>img {
+    width: 100%;
+    height: 85%;
+    flex-shrink: 0;
+    object-fit: contain;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.main>.goods>ul>li>a>span {
+    width: 100%;
+    height: 15%;
+    font-size: 1.375rem;
+    font-family: RobotoRegular;
+    color: #333;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>.goods>ul>li:hover {
+    box-shadow: 0 0 .625rem .625rem #ededed;
+}
+
+.main>.goods>ul>li:hover>a>span {
+    background-color: #0086aa;
+    color: #fff;
+}
+
+@media screen and (orientation: portrait) {
+    .main>.banner>.nav {
+        position: absolute;
+        left: 3.375rem;
+    }
+
+    .main>.goods>ul>li {
+        width: 50%;
+    }
+
+    .main>.goods {
+        padding: 4.875rem 3.375rem 8.4375rem 3.375rem;
+    }
+}

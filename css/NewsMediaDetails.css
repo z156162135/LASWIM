@@ -1,0 +1,160 @@
+.main>.banner {
+    width: 100%;
+    height: 5.5rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>.banner>.nav {
+    position: absolute;
+    left: 3.375rem;
+    top: 1.9375rem;
+    font-family: RobotoLight;
+    color: #666;
+    font-size: 1rem;
+}
+
+.main>.banner>.nav>a {
+    font-family: RobotoLight;
+    color: #666;
+    font-size: 1rem;
+}
+
+.main>.body {
+    padding: 4rem 29.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main>.body>.title {
+    font-size: 4rem;
+    font-family: LeagueGothicRegular;
+    color: #333;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.main>.body>p {
+    font-size: 1.25rem;
+    font-family: RobotoLight;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.main>.list {
+    width: 100%;
+    height: 47.6875rem;
+    padding-top: 7.75rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+
+}
+
+.main>.list>.title {
+    color: #404a59;
+    font-size: 4.5rem;
+    font-family: LeagueGothicRegular;
+    margin-bottom: 6.4375rem;
+}
+
+.main>.list>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main>.list>ul>li {
+    width: 22.625rem;
+    margin: 0 1.7813rem;
+}
+
+.main>.list>ul>li>img {
+    width: 100%;
+}
+
+.main>.list>ul>li>p {
+    font-size: 1.875rem;
+    color: #333;
+    font-family: LeagueGothicRegular;
+    margin-top: 1.75rem;
+    margin-bottom: 3.375rem;
+}
+
+.main>.list>ul>li>a {
+    display: flex;
+    align-items: center;
+}
+
+.main>.list>ul>li>a>img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+.main>.list>ul>li>a>span {
+    border-bottom: .0625rem solid black;
+    padding: .3125rem 0;
+    color: #333;
+    font-family: RobotoRegular;
+}
+@media screen and (orientation: portrait) {
+    .main>.body {
+        padding: 4rem 3.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main>.list{
+        height: auto;
+    }
+    .main>.list>ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .main>.list>ul>li {
+        width: 40%;
+        margin: 3rem 1.7813rem;
+    }
+    
+    .main>.list>ul>li>img {
+        width: 100%;
+    }
+    
+    .main>.list>ul>li>p {
+        font-size: 1.875rem;
+        color: #333;
+        font-family: LeagueGothicRegular;
+        margin-top: 1.75rem;
+        margin-bottom: 3.375rem;
+    }
+    
+    .main>.list>ul>li>a {
+        display: flex;
+        align-items: center;
+    }
+    
+    .main>.list>ul>li>a>img {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 1rem;
+    }
+    
+    .main>.list>ul>li>a>span {
+        border-bottom: .0625rem solid black;
+        padding: .3125rem 0;
+        color: #333;
+        font-family: RobotoRegular;
+    }
+}
